@@ -57,7 +57,7 @@ export default function HeroSection() {
               <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
               <div className="w-3 h-3 bg-green-500 rounded-full"></div>
             </div>
-            <div className="flex-1 text-center text-sm text-med-gray font-mono">~/clinton-murugi</div>
+            <div className="flex-1 text-center text-sm text-med-gray font-mono">~/@murugiclin</div>
           </div>
           <p className="text-lg text-med-gray leading-relaxed font-mono">
             <span className="text-neon">$</span> Shipped 20+ battle-tested apps into the wild. Speak M4, Rust, Ruby, C++, Python, and Assembly like bedtime stories.  

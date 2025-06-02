@@ -12,14 +12,14 @@ export default function PublicationsSection() {
     {
       id: 1,
       title: "Understanding Modern Web Development",
-      date: "2023",
+      date: "2025",
       description: "A comprehensive guide to web development practices and tools",
       expandedContent: "Modern web development encompasses a wide range of technologies and practices. From frontend frameworks like React and Vue to backend technologies like Node.js and Express, developers need to understand multiple layers of the stack. This article explores best practices, common pitfalls, and emerging trends in web development."
     },
     {
       id: 2,
       title: "Building Secure Applications",
-      date: "2023",
+      date: "2025",
       description: "Best practices for implementing security in web applications",
       expandedContent: "Security is paramount in modern web applications. This article delves into essential security practices including authentication, authorization, data encryption, and protection against common vulnerabilities like XSS and CSRF attacks. Learn how to implement robust security measures in your applications."
     }

@@ -10,7 +10,7 @@ export default function ExperienceSection() {
     {
       title: "Student - Software Development",
       company: "Institute of Software Development (IST)",
-      period: "2023 - Present",
+      period: "2025 - Present",
       achievements: [
         "Pursuing advanced software development practices",
         "Working on real-world projects and applications",
@@ -20,7 +20,7 @@ export default function ExperienceSection() {
     {
       title: "Student - ICT & Cisco Certifications",
       company: "Zetech University",
-      period: "2022 - 2023",
+      period: "2024 - 2025",
       achievements: [
         "Information Communication Technology studies",
         "Cisco DevNet Associate certification",
@@ -32,7 +32,7 @@ export default function ExperienceSection() {
     {
       title: "Student - Software Development",
       company: "Apex College",
-      period: "2021 - 2022",
+      period: "2023 - 2024",
       achievements: [
         "C++, PHP, JavaScript, HTML, CSS development",
         "Web development and programming fundamentals"
@@ -41,7 +41,7 @@ export default function ExperienceSection() {
     {
       title: "Founder & CEO",
       company: "Idexin",
-      period: "2023 - Present",
+      period: "2025 - Present",
       achievements: [
         "Led company vision and strategic direction",
         "Developed innovative blockchain solutions",
@@ -51,7 +51,7 @@ export default function ExperienceSection() {
     {
       title: "Software Developer",
       company: "AlmanisSoko",
-      period: "2022 - 2023",
+      period: "2024 - 2024",
       achievements: [
         "Architected and implemented core platform features",
         "Led technical initiatives and system optimizations",
@@ -61,7 +61,7 @@ export default function ExperienceSection() {
     {
       title: "Systems Engineer",
       company: "Fintech Startup",
-      period: "2020 - 2022",
+      period: "2024 - Present",
       achievements: [
         "Built high-frequency trading systems in C++ and Rust",
         "Developed custom memory allocators for performance",

@@ -10,12 +10,13 @@ export default function ProjectsSection() {
 
   const projects = [
     {
-      title: "Blockchain Transaction Handler",
-      description: "Custom on-chain & off-chain hybrid automation system managing crypto wallet transactions with zero downtime.",
-      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-      tech: ["Rust", "C++", "PostgreSQL", "WebSocket"],
-      github: "#",
-      demo: "#",
+      title: "Custom Modular OS",
+description: "Built my own distributed, multi-device operating system from scratch featuring a microkernel architecture, advanced memory & process management, and adaptive UI layers.",
+image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+tech: ["C", "Assembly", "Shell", "QEMU"],
+github: "https://github.com/murugiclin/myos",
+
+
     },
     {
       title: "High-Performance Caching Layer",
@@ -23,7 +24,7 @@ export default function ProjectsSection() {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       tech: ["Rust", "PostgreSQL", "Redis", "Assembly"],
       github: "#",
-      demo: "#",
+
     },
     {
       title: "Cross-Chain Transaction Scanner",
@@ -31,15 +32,15 @@ export default function ProjectsSection() {
       image: "https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       tech: ["Python", "M4", "Docker", "WebHooks"],
       github: "#",
-      demo: "#",
+     
     },
     {
       title: "Smart Contract Testing Framework",
       description: "Automated testing suite for Ethereum smart contracts with fuzzing capabilities and gas optimization analysis.",
       image: "https://images.unsplash.com/photo-1642104704074-907c0698cbd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       tech: ["Solidity", "TypeScript", "Hardhat", "Ethers.js"],
-      github: "#",
-      demo: "#",
+      github: "https://github.com/murugiclin/Solidity-ERC-token",
+     
     },
     {
       title: "Decentralized Identity System",
@@ -47,7 +48,7 @@ export default function ProjectsSection() {
       image: "https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       tech: ["zkSNARKs", "Rust", "IPFS", "GraphQL"],
       github: "#",
-      demo: "#",
+    
     },
     {
       title: "AI-Powered Trading Bot",
@@ -55,7 +56,7 @@ export default function ProjectsSection() {
       image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       tech: ["Python", "TensorFlow", "FastAPI", "PostgreSQL"],
       github: "#",
-      demo: "#",
+      
     },
     {
       title: "Zero-Knowledge Protocol Implementation",
@@ -63,7 +64,7 @@ export default function ProjectsSection() {
       image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       tech: ["Rust", "zkSNARKs", "WebAssembly", "TypeScript"],
       github: "#",
-      demo: "#",
+     
     },
     {
       title: "Custom Memory Allocator",
@@ -71,7 +72,7 @@ export default function ProjectsSection() {
       image: "https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       tech: ["C++", "Assembly", "LLVM", "Linux Kernel"],
       github: "#",
-      demo: "#",
+     
     },
     {
       title: "L2 Chain Optimization Framework",
@@ -79,7 +80,7 @@ export default function ProjectsSection() {
       image: "https://images.unsplash.com/photo-1642104704074-907c0698cbd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
       tech: ["Solidity", "Rust", "Go", "Python"],
       github: "#",
-      demo: "#",
+    
     }
   ];
 
@@ -131,10 +132,7 @@ export default function ProjectsSection() {
                         className="bg-electric text-white hover:bg-blue-600"
                         asChild
                       >
-                        <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                          <ExternalLink className="h-4 w-4 mr-2" />
-                          Demo
-                        </a>
+                        
                       </Button>
                     </div>
                   </div>
