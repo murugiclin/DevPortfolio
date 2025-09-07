@@ -4,19 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
     <title>Clinton Murugi</title>
-    <!-- Optional: Favicon -->
     <link rel="icon" href="/favicon.ico" />
 
-    <!-- Mastodon verification using <link> in head -->
+    <!-- Mastodon verification -->
     <link rel="me" href="https://mastodon.social/@idexin" />
+
+    <!-- Prevent Google caching -->
+    <meta name="robots" content="index, follow, noarchive">
   </head>
   <body>
     <div id="root"></div>
-
-    <!-- Mastodon verification using hidden <a> link in body -->
     <a rel="me" href="https://mastodon.social/@idexin" style="display: none;">Mastodon</a>
 
     <script type="module" src="/src/main.tsx"></script>
-    <script type="text/javascript" src=""></script>
   </body>
 </html>
