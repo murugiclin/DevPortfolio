@@ -36,8 +36,8 @@ export default function SkillsSection() {
         { name: "C++", icon: Cpu, color: "text-blue-400" },
         { name: "Python", icon: Code2, color: "text-blue-400" },
         { name: "Assembly", icon: Settings, color: "text-red-500" },
-        { name: "M4 Macros", icon: Terminal, color: "text-purple-500" },
-        { name: "Ruby", icon: Leaf, color: "text-red-600" },
+        { name: "Php", icon: Terminal, color: "text-purple-500" },
+        { name: "Next Js", icon: Leaf, color: "text-red-600" },
       ],
     },
     {
