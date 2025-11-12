@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, MapPin, Telegram, Send, Github, Linkedin, Twitter, Rss } from "lucide-react";
+import { Mail, MapPin, SiTelegram, Send, Github, Linkedin, Twitter, Rss } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
