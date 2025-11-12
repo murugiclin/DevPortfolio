@@ -21,6 +21,7 @@ export default function ContactSection() {
     subject: "",
     message: "",
   });
+  
 
   const contactMutation = useMutation({
     mutationFn: async (data: InsertContactMessage) => {
