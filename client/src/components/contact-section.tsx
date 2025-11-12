@@ -75,6 +75,12 @@ export default function ContactSection() {
       value: "@Idexin_signals",
       color: "text-electric",
     },
+    {
+      icon: Send,
+      title: "Telegram",
+      value: "@Idexin",
+      color: "text-electric",
+    },
   ];
 const socialLinks = [
   { icon: Github, href: "#", label: "GitHub" },
