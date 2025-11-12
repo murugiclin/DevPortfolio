@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, MapPin, Clock, Send, Github, Linkedin, Twitter, Rss } from "lucide-react";
+import { Mail, MapPin, Telegram, Send, Github, Linkedin, Twitter, Rss } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -69,9 +69,9 @@ export default function ContactSection() {
       color: "text-electric",
     },
     {
-      icon: Clock,
-      title: "Response Time",
-      value: "Within 24 hours",
+      icon: SiTelegram,
+      title: "Telegram",
+      value: "@Idexin_signals",
       color: "text-electric",
     },
   ];
