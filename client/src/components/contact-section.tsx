@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, MapPin, SiTelegram, Send, Github, Linkedin, Twitter, Rss } from "lucide-react";
+import { Mail, MapPin, Send, Github, Linkedin, Twitter, Rss } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -69,18 +69,18 @@ export default function ContactSection() {
       color: "text-electric",
     },
     {
-      icon: SiTelegram,
+      icon: send,
       title: "Telegram",
       value: "@Idexin_signals",
       color: "text-electric",
     },
   ];
-
-  const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Rss, href: "#", label: "Blog" },
+const socialLinks = [
+  { icon: Github, href: "#", label: "GitHub" },
+  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Twitter, href: "#", label: "Twitter" },
+  { icon: Rss, href: "#", label: "Blog" },
+  { icon: Send, href: "https://t.me/Idexin_signals", label: "Telegram" }, // ✅ added
   ];
 
   return (
