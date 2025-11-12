@@ -46,7 +46,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-12 px-6 border-t border-slate-800 relative z-10">
         <div className="max-w-6xl mx-auto text-center">
-          <div className="font-space text-2xl font-bold text-gradient mb-4">Clinton Murugi</div>
+          <div className="font-space text-2xl font-bold text-gradient mb-4">idexin signals</div>
           <p className="text-med-gray mb-6">"If it can be automated, it will be. If it can be optimized, it must be. If it can be built, I'm already doing it."</p>
           <div className="flex justify-center space-x-6 mb-6">
             <a href="#home" className="hover:text-electric transition-colors">Home</a>
@@ -56,7 +56,7 @@ export default function Home() {
             <a href="#contact" className="hover:text-electric transition-colors">Contact</a>
           </div>
           <div className="text-sm text-med-gray">
-            © {new Date().getFullYear()} Clinton Murugi. Built with passion and lots of coffee.
+            © {new Date().getFullYear()} idexin . Built with passion and lots of coffee.
           </div>
         </div>
       </footer>
