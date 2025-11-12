@@ -69,7 +69,7 @@ export default function ContactSection() {
       color: "text-electric",
     },
     {
-      icon: send,
+      icon: Send,
       title: "Telegram",
       value: "@Idexin_signals",
       color: "text-electric",
