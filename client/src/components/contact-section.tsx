@@ -88,6 +88,8 @@ const socialLinks = [
   { icon: Twitter, href: "#", label: "Twitter" },
   { icon: Rss, href: "#", label: "Blog" },
   { icon: Send, href: "https://t.me/Idexin_signals", label: "Telegram" }, // ✅ added
+   { icon: Send, href: "https://t.me/Idexin_bot", label: "Telegram" },
+   { icon: Send, href: "https://t.me/Idexin", label: "Telegram" },
   ];
 
   return (
