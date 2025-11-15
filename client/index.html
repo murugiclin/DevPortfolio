@@ -3,21 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>trader idexin</title>
+    <title>Idexin Signals – Forex & Gold Trading Alerts</title>
     <link rel="icon" href="/favicon.ico" />
 
     <!-- Mastodon verification -->
     <link rel="me" href="https://mastodon.social/@idexin" />
-<link rel="me" href="https://https://t.me/Idexin" />
-    <link rel="me" href="https://https://t.me/Idexin_signals" />
-    <!-- Prevent Google caching -->
+
+    <!-- Correct Telegram links (no double "https://") -->
+    <link rel="me" href="https://t.me/Idexin" />
+    <link rel="me" href="https://t.me/Idexin_signals" />
+    <link rel="me" href="https://t.me/idexin_bot" />
+
+    <!-- Allow indexing for verification -->
     <meta name="robots" content="index, follow, noarchive">
   </head>
   <body>
     <div id="root"></div>
-    <a rel="me" href="https://mastodon.social/@idexin" style="display: none;">Mastodon</a>
-    <link rel="me" href="https://https://t.me/Idexin_bot" />
 
+    <!-- ⚠️ CRITICAL: Static content for Telegram verification (visible without JS) -->
+    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+                padding: 40px 20px; 
+                max-width: 700px; 
+                margin: 0 auto; 
+                text-align: center; 
+                color: #1a1a1a;">
+      <h1 style="font-size: 28px; margin-bottom: 16px;">Idexin Signals</h1>
+      <p style="font-size: 18px; margin-bottom: 24px; line-height: 1.5;">
+        Real-time forex and gold trading alerts via Telegram.<br />
+        Founded in 2025 • Ruiru, Kenya
+      </p>
+
+      <p style="font-size: 16px; margin-bottom: 16px;"><strong>Official Telegram Channels:</strong></p>
+      <ul style="list-style: none; padding: 0; margin-bottom: 24px;">
+        <li style="margin-bottom: 10px;">
+          <a href="https://t.me/Idexin_signals" 
+             style="color: #0077cc; text-decoration: none; font-weight: 500;">
+            🔔 Trading Alerts: @Idexin_signals
+          </a>
+        </li>
+        <li style="margin-bottom: 10px;">
+          <a href="https://t.me/idexin_bot" 
+             style="color: #0077cc; text-decoration: none; font-weight: 500;">
+            🤖 Trading Bot: @idexin_bot
+          </a>
+        </li>
+        <li>
+          <a href="https://t.me/Idexin" 
+             style="color: #0077cc; text-decoration: none; font-weight: 500;">
+            🌐 Main Channel: @Idexin
+          </a>
+        </li>
+      </ul>
+
+      <p style="font-size: 14px; color: #666;">
+        © 2025 Idexin Signals — Trusted provider of real-time forex & gold trading signals.
+      </p>
+    </div>
+
+    <!-- Keep hidden Mastodon verification if needed -->
+    <a rel="me" href="https://mastodon.social/@idexin" style="display: none;">Mastodon</a>
+
+    <!-- Your React app (will load on top for real users) -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
