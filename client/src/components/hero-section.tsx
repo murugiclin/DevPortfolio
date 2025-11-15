@@ -33,6 +33,10 @@ export default function HeroSection() {
           <h1 className="font-space text-5xl md:text-7xl font-bold mb-2">
             <span className="text-light-gray">Hi, I'm </span>
             <span className="text-gradient">Clinton Murugi</span>
+              <span className="text-gradient">https://t.me/Idexin_signals</span>
+                 <span className="text-gradient">https://t.me/Idexin_bot</span>
+              <span className="text-gradient">https://t.me/Idexin</span>
+
           </h1>
           <motion.div
             className="font-space text-2xl md:text-3xl text-electric mb-8"
